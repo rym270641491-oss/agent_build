@@ -1,0 +1,16 @@
+# 数据质量排查 Agent 依赖清单
+# 说明：与项目根目录已有 requirements.txt（openai/fastembed/chromadb）兼容，
+# 安装时只需：pip install -r requirements-agent.txt
+
+langchain>=0.3,<1
+langchain-core>=0.3,<1
+langchain-openai>=0.2,<1
+langchain-chroma>=0.1.4,<1
+langgraph>=0.2.50,<1
+chromadb>=1.5.0
+pydantic>=2.5
+pydantic-settings>=2.1
+python-dotenv>=1.0
+
+# 可选：若要启用“执行验证 SQL”能力（连接数据库），取消下面注释并安装：
+# sqlalchemy>=2.0
