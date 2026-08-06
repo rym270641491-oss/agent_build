@@ -3,3 +3,4 @@
 .venv/
 __pycache__/
 rag_db/
+data_quality_agent/data/vector_store/
